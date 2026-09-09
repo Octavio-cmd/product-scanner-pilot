@@ -370,7 +370,7 @@ window.addEventListener('load', function() {
     var hdrLogo = document.querySelector('.hdr') || document.querySelector('[class*="header"]') || document.body;
     var badge = document.createElement('div');
     badge.style.cssText = 'position:fixed;top:8px;right:8px;background:rgba(255,107,53,0.2);border:1px solid #FF6B35;border-radius:8px;padding:6px 12px;font-size:11px;font-weight:700;color:#FF6B35;z-index:9999;';
-    badge.textContent = '🧪 STAGING';
+    badge.textContent = '🟢 PILOT — OPERATIONS';
     document.body.appendChild(badge);
 
     // Add link to Savvy Home staging (same tab)
